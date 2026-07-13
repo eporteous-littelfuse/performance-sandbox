@@ -57,6 +57,7 @@ The script times these commands for each iteration:
 - `git grep "TODO"`
 - `git clean -fdn` (dry run)
 - `git fsck --no-progress`
+- `git pull`
 
 ## Output
 

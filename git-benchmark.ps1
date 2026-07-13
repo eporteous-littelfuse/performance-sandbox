@@ -188,6 +188,12 @@ $benchmarks = @(
         Script = {
             git fsck --no-progress *> $null
         }
+    },
+    @{
+        Name = "git pull"
+        Script = {
+            git pull *> $null
+        }
     }
 )
 
