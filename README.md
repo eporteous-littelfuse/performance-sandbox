@@ -14,6 +14,12 @@ This repository contains a PowerShell benchmark script that measures the runtime
 
 ## Usage
 
+Open PowerShell and make sure it can execute scripts:
+
+```powershell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
+
 Run the script from this folder or provide a full path to it:
 
 Minimal example (benchmark current directory):
